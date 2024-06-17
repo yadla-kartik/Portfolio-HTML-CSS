@@ -1,0 +1,1611 @@
+body {
+  font-family: "Nunito sans", sans-serif;
+  color: #fff;
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  height: 30px;
+}
+
+.navbar .logo span {
+  margin-left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar .menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Dancing";
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  margin: 0 15px;
+  transition: color 0.4s ease;
+}
+
+.navbar .menu a:hover {
+  color: #8a0ad9;
+}
+
+.navbar .hire-me {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #ff2759, #8a0ad9);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Dancing";
+  letter-spacing: 1px;
+  transition: background 0.5s ease-in;
+}
+
+.navbar .hire-me:hover {
+  background: linear-gradient(90deg, #8a0ad9, #ff2759);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.intro {
+  flex: 1;
+  max-width: 500px;
+}
+
+.role p {
+  display: block;
+  font-size: 20px;
+  font-family: "Nunito sans", sans-serif;
+  margin-bottom: -10px;
+  color: #ff2759;
+  letter-spacing: 1px;
+}
+
+.intro h1 {
+  font-size: 38px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  margin-bottom: auto;
+}
+
+.badge {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Rajdhani", sans-serif;
+  letter-spacing: 1px;
+  color: #ff2759;
+}
+
+.discription {
+  color: #ffffffcd;
+  letter-spacing: 0.1px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 17px;
+}
+
+.btn.talk {
+  background: #ff2759;
+  color: #fff;
+}
+
+.btn.talk a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn.project {
+  background: #8a0ad9;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-link img {
+  width: 32px;
+  margin-right: 15px;
+  border-radius: 5px;
+  transition: opacity 0.3s;
+}
+
+.social-link img:hover {
+  opacity: 0.7;
+}
+
+.profile-container {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.profile-container img {
+  border-radius: 50%;
+  width: 500px;
+}
+
+.logo-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sl {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sl img {
+  width: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.sl.side-logo1 {
+  top: -210px;
+  left: 80%;
+  transform: translateX(-250%);
+}
+
+.sl.side-logo2 {
+  top: 50%;
+  right: -240px;
+  transform: translateY(-300%);
+}
+
+.sl.side-logo3 {
+  bottom: -220px;
+  left: 50%;
+  transform: translateX(-220%);
+}
+
+.sl.side-logo4 {
+  top: 50%;
+  left: 80px;
+  transform: translateY(280%);
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.stat {
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: background 0.5s ease-in;
+}
+
+.stat h2 {
+  font-size: 38px;
+  margin: 0;
+}
+
+.stat h2 span {
+  font-size: 20px;
+}
+
+.stat p {
+  font-size: 17px;
+  letter-spacing: 0.2px;
+}
+
+.stat:hover {
+  background: #8a0ad9;
+  color: #000;
+  border-radius: 5px;
+}
+
+/* About css Starts */
+
+.about {
+  margin: 50px auto;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+}
+
+.about-img img {
+  width: 500px;
+}
+
+.about-text h1 {
+  font-size: 44px;
+  font-weight: 500;
+  font-family: "Rajdhani", sans-serif;
+  color: #ff2759;
+}
+
+.about-me h3 {
+  color: #8a0ad9;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Nunito sans", sans-serif;
+  margin-right: 20px;
+}
+
+.abt-description {
+  font-size: 16px;
+  font-family: "Nunito sans", sans-serif;
+  font-weight: 300;
+  color: #cbcbc5;
+  letter-spacing: 0.1px;
+}
+
+.about-vm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vm {
+  width: 260px;
+  height: auto;
+  border: 1px solid #ff2759;
+  border-radius: 10px;
+  padding: 0 10px 0 15px;
+  text-align: start;
+  background: hwb(0 0% 100% / 0.82);
+  background-image: url("Images/ImgBackground_1.webp");
+  background-size: cover;
+  background-blend-mode: darken;
+  transition: border 0.6s ease-in-out;
+}
+
+.vm:hover {
+  background: hwb(0 0% 100% / 0.691);
+  background-image: url("Images/ImgBackground_1.webp");
+  background-blend-mode: darken;
+  background-size: cover;
+  border: 1.5px solid #ffbd10;
+}
+
+.vm h2 {
+  font-size: 24px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  color: #ffff;
+}
+
+.vm p {
+  font-size: 17px;
+  font-family: "Nunito sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1px;
+  color: #ffffff9e;
+}
+
+.about-mission {
+  margin-right: 50px;
+}
+
+/* Service CSS Starts */
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #ff2759d1, #8a0ad9ae);
+  padding: 60px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.service-head h1 {
+  font-size: 44px;
+  font-weight: 500;
+  font-family: "Rajdhani", sans-serif;
+  margin: auto;
+}
+
+.service p {
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  float: inline-start;
+  font-size: 16px;
+  font-family: "Nunito sans", sans-serif;
+  letter-spacing: 0.2px;
+  color: #cbcbc5;
+}
+
+.service-box {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.serv-box {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid #ffbd10;
+  border-radius: 10px;
+  background-color: #000;
+  transition: border 0.6s ease-in-out;
+}
+
+.serv-box:hover {
+  border-color: #2cffa5;
+}
+
+.serv-box img {
+  width: 56px;
+  transform: translateY(0px);
+  transition: transform 0.1s ease;
+}
+
+.serv-box img:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+.serv-box h4 {
+  margin: auto;
+  font-size: 28px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+}
+
+.serv-box p {
+  padding: 5px;
+  text-align: center;
+  color: #ffffffb2;
+  font-family: "Nunito sans", sans-serif;
+}
+
+.service-intro {
+  width: auto;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image {
+  flex: 1 1 40%;
+  margin-right: 20px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-content {
+  flex: 1 1 55%;
+}
+
+.text-content h1 {
+  font-size: 32px;
+  margin: 0 0 20px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+}
+
+.text-content p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.feature {
+  width: 150px;
+  background: hsla(0, 0%, 0%, 0.853);
+  background-image: url("Images/ImgBackground_1.webp");
+  background-size: cover;
+  background-blend-mode: darken;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  border: 1px solid #ff005d;
+  transition: border 0.6s ease-in-out;
+}
+
+.feature:hover {
+  border: 1px solid #ffbd10;
+}
+
+.feature h2 {
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Rajdhani", sans-serif;
+  margin: 0 0 10px;
+}
+
+.feature p {
+  margin: 0;
+  font-size: 14px;
+  color: #cbcbc5;
+  line-height: 1.5;
+}
+
+.serv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Clients CSS Starts */
+
+.feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.feed-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 200px;
+  height: 190px;
+  border-radius: 10px;
+  background-color: #102334;
+  text-align: center;
+  transform: translateY(20px);
+  transition: transform 0.1s ease-in-out;
+}
+
+.feed-box:hover {
+  transform: translateY(10px);
+}
+
+.feed-box img {
+  margin: auto;
+  width: 40px;
+  margin-bottom: -10px;
+}
+
+.feed-box h4 {
+  margin: auto;
+  color: #ffbd10;
+  font-size: 34px;
+  font-family: "Rajdhani", sans-serif;
+  margin-bottom: -20px;
+}
+
+.feed-box p {
+  font-size: 17px;
+  margin: auto;
+}
+
+/* Skill CSS Starts */
+
+.skill-main {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.skill-main h1 {
+  font-size: 44px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  color: #ff2759;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill p {
+  font-size: 20px;
+  font-family: "Nunito sans", sans-serif;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #ffbd10;
+}
+
+.progress {
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 15px;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  background-color: #8000ff;
+  height: 15px;
+  border-radius: 10px;
+}
+
+.skill-image {
+  margin: 10px;
+}
+
+.skill-image img {
+  width: 450px;
+  border-radius: 10px;
+}
+
+/* Experience CSS Starts */
+
+.experience-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-title h1 {
+  font-size: 44px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  color: #ff2759;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: -10px;
+}
+
+.section-title p {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.section-subtitle p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #cbcbc5;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.download-cv {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #ff2759, #8a0ad9);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience {
+  background-color: #102334;
+  width: 100%;
+  height: 60px;
+  padding: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.experience-icon img {
+  width: 80px;
+  flex: 0 0 50px;
+}
+
+.experience-details {
+  flex: 1;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.experience-title {
+  font-size: 28px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.experience-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #cbcbc5;
+}
+
+.experience-date {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.experience-company {
+  font-size: 18px;
+  margin-left: 10px;
+  color: #cbcbc5;
+}
+
+.experience-company p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #cbcbc5;
+}
+
+.experience-button {
+  background-color: transparent;
+  border: 2px solid #ff2759;
+  padding: 5px 10px;
+  color: #ff2759;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.experience-button:hover {
+  border: 2px solid #8a0ad9;
+  color: #fff;
+}
+
+/* Project CSS Starts */
+
+.project-caption {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 10px;
+  margin-bottom: -30px;
+  margin-top: 40px;
+}
+
+.project-tittle h1 {
+  color: #ff2759;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  margin: auto;
+}
+
+.project-tittle p {
+  margin: auto;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.project-details {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.project-details p {
+  color: #cbcbc5;
+  font-size: 16px;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.profile-section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.project-card {
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 500px;
+  width: 100%;
+  height: 550px;
+  margin: 10px;
+  border: #ff2759 solid 1px;
+  display: flex;
+  flex-direction: column;
+  background: hsla(0, 0%, 0%, 0.792);
+  background-image: url("Images/ImgBackground_1.webp");
+  background-size: cover;
+  background-blend-mode: darken;
+  transition: border 0.6s ease-in-out;
+}
+
+.project-card:hover {
+  border: 1px solid #ffbd10;
+}
+
+.project-card img {
+  width: 1005;
+  border-radius: 15px;
+  height: auto;
+  padding: 1px;
+}
+
+.project-card-content {
+  padding: 20px;
+}
+
+.project-label {
+  display: inline-block;
+  background-color: #8a0ad9;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.project-name {
+  font-size: 24px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #cbcbc5;
+}
+
+/* Testimonal CSS Starts */
+
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: linear-gradient(to right, #8a0ad9, #ff2759);
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+.heading-section {
+  margin-bottom: 20px;
+}
+
+.heading-section p {
+  font-size: 42px;
+  font-weight: 500;
+  font-family: "Rajdhani", sans-serif;
+  color: #ff2759;
+  margin: auto;
+}
+
+.heading-section h1 {
+  font-size: 24px;
+  margin: auto;
+}
+
+.heading-section .subtitle {
+  font-size: 16px;
+  font-family: "Nunito sans", sans-serif;
+  color: #cbcbc5;
+}
+
+.image-section {
+  margin-top: 20px;
+  position: relative;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 380px;
+}
+
+.testimonial-inner-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.testimonial-box {
+  width: 340px;
+  background-color: hsla(0, 0%, 0%, 0.87);
+  background-image: url("Images/ImgBackground_1.webp");
+  background-size: cover;
+  background-blend-mode: darken;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  border: #ffbd10 2px solid;
+  transition: background 0.6s ease-in-out;
+  transition: border 0.5s ease-in;
+}
+
+.testimonial-box:hover {
+  border: 2px solid #8ed1fc;
+  background-color: hsla(0, 0%, 0%, 0.781);
+  background-image: url("Images/ImgBackground_1.webp");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.testimonial-box p {
+  font-size: 17px;
+}
+
+.testimonial-box .author {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.testimonial-box .author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.testimonial-box .author .name {
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+}
+
+.testimonial-box .author .company {
+  color: #ffbd10;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.testimonial-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+
+/* Blogs CSS Start */
+
+.blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.blogs-head h1 {
+  color: #ff2759;
+  font-size: 44px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.blogs-head h3 {
+  margin: auto;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.blogs-head p {
+  color: #cbcbc5;
+  margin: auto;
+}
+
+.blogs-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.blog-inner2 {
+  width: 300px;
+  background: linear-gradient(90deg, #791b34, #45117e);
+  border-radius: 10px;
+  padding: 20px 20px 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.blog-search-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ff2759;
+  background: #102334;
+  border-radius: 5px;
+  outline: none;
+  color: #ff2759;
+}
+
+#search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fff;
+  color: #ff2759;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.recent-posts h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.post {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.post img {
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.post-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-details .category {
+  font-size: 16px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  color: #ffbd10;
+  margin-bottom: 5px;
+}
+
+.post-details a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.post-details a:hover {
+  text-decoration: underline;
+}
+
+.blog-box {
+  max-width: 350px;
+  width: 100%;
+  height: 420px;
+  border: none;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  background: #102334;
+}
+
+.img-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-inner2 .recent-posts {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.recent-posts h2 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+}
+
+.blog-inner3 {
+  width: 300px;
+  background: linear-gradient(90deg, #791b34, #45117e);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.categories,
+.follow-us {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.102);
+}
+
+.categories h2,
+.follow-us h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.checkmark {
+  color: #ffbd10;
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-icons a img {
+  width: 30px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.blog-name {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+.blog-date {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+}
+
+.blog-box h4 {
+  font-size: 17px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  padding: 0 10px 0 10px;
+}
+
+.blog-box p {
+  text-align: left;
+  color: #cbcbc5;
+  padding: 0 10px 0 10px;
+}
+
+/* Contact CSS Starts */
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 190px;
+  margin-bottom: 50px;
+}
+
+.contact-card {
+  border: 1px solid #ff2759;
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 0%, 0.89);
+  background-image: url("Images/ImgBackground_1.webp");
+  background-blend-mode: darken;
+  background-size: cover;
+  padding: 30px;
+  width: 480px;
+  height: 300px;
+  margin: auto;
+  transition: border 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+.contact-card:hover {
+  background-color: hsla(0, 0%, 0%, 0.728);
+  border: 1px solid #ffbd10;
+}
+
+.contact-header span {
+  font-size: 40px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  margin: auto;
+  color: #ff2759;
+}
+
+.contact-card .contact-body h2 {
+  font-size: 28px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  margin: auto;
+}
+
+.contact-body p {
+  margin-bottom: 10px;
+  color: #cbcbc5;
+  font-weight: 400;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 15px;
+}
+
+.info span {
+  margin-left: 5px;
+}
+
+.contact-form {
+  background-color: #000000da;
+  background-image: url("Images/ImgBackground_1.webp");
+  background-blend-mode: darken;
+  background-size: cover;
+  border: 1px solid #ff2759;
+  border-radius: 8px;
+  padding: 30px;
+  width: 480px;
+  height: 300px;
+  margin: auto;
+  transition: border 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+.contact-form:hover {
+  background-color: hsla(0, 0%, 0%, 0.728);
+  border: 1px solid #ffbd10;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 23px;
+  gap: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  background-color: #0c1115;
+  border: 1px solid #ff2759;
+  border-radius: 10px;
+  padding: 10px;
+  color: #8a0ad9;
+  font-family: "Nunito sans", sans-serif;
+  width: 48%;
+  outline: none;
+  transition: border 0.5s ease-in-out;
+}
+
+.form-group input:hover,
+.form-group textarea:hover {
+  border: 1px solid #ffbd10;
+}
+
+.form-group textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #ff2759, #8a0ad9);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Nunito sans", sans-serif;
+  transition: transform 0.1s ease-in-out;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, #8a0ad9, #ff2759);
+}
+
+.contact-2 {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #8a0ad9, #ff2759);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 90px;
+  margin-top: 130px;
+  width: auto;
+}
+
+.text-section {
+  flex: 1;
+  margin: auto;
+}
+
+.text-section h1 {
+  font-size: 22px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  margin: auto;
+}
+
+.text-section p {
+  font-size: 38px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.text-section button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #000;
+  color: #8a0ad9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.text-section button:hover {
+  background-color: #ffccff;
+}
+
+.contact-img2 img {
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Footer CSS Start */
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #000000c4;
+  background-image: url("ImgBackground_1.webp");
+  background-size: cover;
+  background-blend-mode: darken;
+  margin-top: 120px;
+}
+
+.footer-about img {
+  width: 200px;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 40px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-icons img {
+  width: 30px;
+}
+
+.footer-inner {
+  display: flex;
+  gap: 20px;
+  align-items: start;
+}
+
+.footer-links ul {
+  list-style-type: none;
+}
+
+.footer-links li {
+  margin-top: 5px;
+  color: #cbcbc5;
+}
+
+.footer-links h3 {
+  font-size: 24px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ff2759;
+  background-color: #102334;
+  color: #ff2759;
+  border-radius: 5px;
+}
+
+.newsletter h3 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.newsletter p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #cbcbc5;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #ff2759, #8a0ad9);
+  color: #ffff;
+  font-family: "Rajdhani", sans-serif;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.newsletter button:hover {
+  background: linear-gradient(90deg, #8a0ad9, #ff2759);
+}
+
+.footer-container {
+  background: linear-gradient(90deg, #8a0ad9, #ff2759);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  max-width: 300px;
+  flex: 1;
+}
+
+.footer-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ffbd10;
+}
+
+.footer-text h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-text p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #cbcbc5;
+}
+
+/* Other CSS */
+
+.home-to-abt {
+  background: linear-gradient(90deg, #8a2be2, #00ffb7);
+  color: white;
+  padding: 100px 0 100px 80px;
+  margin-top: 20px;
+}
+
+.breadcrumb {
+  color: #ffbd10;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb .breadcrumb-item {
+  margin: 0 5px;
+}
+
+.breadcrumb .separator {
+  margin: 0 5px;
+  color: white;
+}
+
+.home-to-abt h1 {
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+  }
+
+  .container {
+      flex-direction: column;
+  }
+
+  .about {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .about-img img, .profile-container img {
+      max-width: 100%;
+  }
+
+  .stats {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .stat {
+      flex: 1 1 100%;
+  }
+
+  .service-inner {
+      flex-direction: column;
+      gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar .menu {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .intro h1 {
+      font-size: 32px;
+  }
+
+  .stat h2 {
+      font-size: 28px;
+  }
+
+  .about-text h1 {
+      font-size: 36px;
+  }
+}
